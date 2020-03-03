@@ -127,11 +127,24 @@
 
         <div id="Exercise01" class="collapse in  col-lg-12">
             <ol>
-                <li>These steps are performed on the Raspberry Pi.</li>
+                <li>These steps are performed on the Raspberry Pi, either by using a mouse and keyboard attached directly to the Raspberry Pi, or establishing a VNC connect per <a href="../IOTP03/IOTP03.html" class="bg-info text-white" target="_blank" >IOTP03</a>.</li>
 
-                <li>Open a browser to: <a href="https://www.raspberrypi-spy.co.uk/2014/10/how-to-use-wavemon-to-monitor-your-wifi-connection/" class="bg-info text-white" target="_blank">https://www.raspberrypi-spy.co.uk/2014/10/how-to-use-wavemon-to-monitor-your-wifi-connection/</a> </li>
+                <li>Make sure your Raspberry Pi is connected to the WSU Guest wireless network.<br />
+                    To establish a VNC connection, your laptop must be attached to the WSU network via a wired connection.<br />
+                    See <a href="../IOTP02/IOTP02.html" class="bg-info text-white" target="_blank">IOTP02</a> for details.<br />
+                </li>
 
-                <li>Follow the instructions to install the program.<br />
+                <li>If you have not run your Raspberry Pi in a while, make sure to first open and Terminal window and run these commands:<br />
+                    <code>sudo apt-get update</code><br />
+                    <code>sudo apt-get upgrade</code><br />
+                    Note there may be other on-screen suggestions for commands to run.
+                </li>
+
+                <li>Open a browser to: <a href="https://www.raspberrypi-spy.co.uk/2014/10/how-to-use-wavemon-to-monitor-your-wifi-connection/" class="bg-info text-white" target="_blank">https://www.raspberrypi-spy.co.uk/2014/10/how-to-use-wavemon-to-monitor-your-wifi-connection/</a><br /> and review how to install and use Wavemon. </li>
+
+                <li>
+                    To install Wavemon, open a Terminal window and type the following command, then press Enter:<br />
+                    <code>sudo apt-get install -y wavemon</code>
                 </li>
 
             </ol>
